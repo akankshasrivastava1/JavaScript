@@ -1,0 +1,17 @@
+What are the 3 parts of a for loop
+
+for(initializer; condition; iteration)
+{
+    // Code to be executed
+}
+
+The for loop requires following three parts.
+
+Initializer: Initialize a counter variable to start with
+Condition: specify a condition that must evaluate to true for next iteration
+Iteration: increase or decrease counter
+
+Example for loop
+for (let i =0; i<3; i++){
+    console.log(i);
+}

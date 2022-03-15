@@ -1,0 +1,18 @@
+b. Explain break. What is its purpose and when should it be used. Use an example to explain
+
+The break statement is frequently used to terminate the processing of a particular
+case within a switch statement.
+
+the break statement terminates only the do, for, switch, or while statement that 
+immediately encloses it. 
+You can use a return or goto statement to transfer control elsewhere out 
+of the nested structure.
+
+Example
+for (let i = 1; i <= 5; i++) {
+    // break condition     
+    if (i == 3) {
+        break;
+    }
+    console.log(i);
+}
